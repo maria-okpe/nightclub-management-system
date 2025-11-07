@@ -9,11 +9,11 @@ class SampleTest {
         assertEquals(5, 2 + 3);
     }
 
-    @Test
+    /*@Test
     void testAdditionShouldFail() {
         int result = 2 + 3;
         assertEquals(6, result);
-    }
+    }*/
 
     @Test
     void testAdditionFixed() {
