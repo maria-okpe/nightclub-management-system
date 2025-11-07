@@ -15,4 +15,10 @@ class SampleTest {
         int result = 2 + 3;
         assertEquals(6, result); // ❌ Intentionally wrong expected value
     }
+
+    @Test
+    void testAdditionFixed() {
+        int result = 2 + 3;
+        assertEquals(5, result); // ✅ Correct now
+    }
 }
