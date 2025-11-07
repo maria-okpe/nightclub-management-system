@@ -10,11 +10,11 @@ class SampleTest {
         assertEquals(5, 2 + 3); // should pass
     }
 
-    @Test
+    /*@Test
     void testAdditionShouldFail() {
         int result = 2 + 3;
         assertEquals(6, result); // ❌ Intentionally wrong expected value
-    }
+    }*/
 
     @Test
     void testAdditionFixed() {
