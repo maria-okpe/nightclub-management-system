@@ -9,4 +9,10 @@ class SampleTest {
     void testAddition() {
         assertEquals(5, 2 + 3); // should pass
     }
+
+    @Test
+    void testAdditionShouldFail() {
+        int result = 2 + 3;
+        assertEquals(6, result); // ❌ Intentionally wrong expected value
+    }
 }
